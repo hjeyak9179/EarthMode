@@ -15,6 +15,9 @@ class LearnViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func learnButton(_ sender: Any) {
+        outfitLabel.text = "hey hey"
+    }
     
 
     /*
