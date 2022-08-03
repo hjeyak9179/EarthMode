@@ -17,6 +17,9 @@
 		B82624092899A02200B8718E /* EarthModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82624082899A02200B8718E /* EarthModeTests.swift */; };
 		B82624132899A02200B8718E /* EarthModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82624122899A02200B8718E /* EarthModeUITests.swift */; };
 		B82624152899A02200B8718E /* EarthModeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82624142899A02200B8718E /* EarthModeUITestsLaunchTests.swift */; };
+		B826242B289AC11E00B8718E /* OutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826242A289AC11E00B8718E /* OutfitViewController.swift */; };
+		B826242D289AC13E00B8718E /* CarbonQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826242C289AC13E00B8718E /* CarbonQuizViewController.swift */; };
+		B826242F289AC15500B8718E /* EcoLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826242E289AC15500B8718E /* EcoLogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B826240E2899A02200B8718E /* EarthModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82624122899A02200B8718E /* EarthModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModeUITests.swift; sourceTree = "<group>"; };
 		B82624142899A02200B8718E /* EarthModeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B826242A289AC11E00B8718E /* OutfitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitViewController.swift; sourceTree = "<group>"; };
+		B826242C289AC13E00B8718E /* CarbonQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonQuizViewController.swift; sourceTree = "<group>"; };
+		B826242E289AC15500B8718E /* EcoLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoLogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				B82623F02899A01F00B8718E /* SceneDelegate.swift */,
 				B82623F22899A01F00B8718E /* ViewController.swift */,
 				B82623F42899A01F00B8718E /* Main.storyboard */,
+				B826242A289AC11E00B8718E /* OutfitViewController.swift */,
+				B826242C289AC13E00B8718E /* CarbonQuizViewController.swift */,
+				B826242E289AC15500B8718E /* EcoLogViewController.swift */,
 				B82623FA2899A02100B8718E /* Assets.xcassets */,
 				B82623FC2899A02100B8718E /* LaunchScreen.storyboard */,
 				B82623FF2899A02100B8718E /* Info.plist */,
@@ -262,8 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B82623F32899A01F00B8718E /* ViewController.swift in Sources */,
+				B826242F289AC15500B8718E /* EcoLogViewController.swift in Sources */,
+				B826242B289AC11E00B8718E /* OutfitViewController.swift in Sources */,
 				B82623EF2899A01F00B8718E /* AppDelegate.swift in Sources */,
 				B82623F12899A01F00B8718E /* SceneDelegate.swift in Sources */,
+				B826242D289AC13E00B8718E /* CarbonQuizViewController.swift in Sources */,
 				B82623F92899A01F00B8718E /* EarthMode.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
