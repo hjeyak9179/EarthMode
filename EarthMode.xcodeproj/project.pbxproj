@@ -27,6 +27,7 @@
 		D37D9791289C13450039D8EE /* QuestionFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9790289C13450039D8EE /* QuestionFiveViewController.swift */; };
 		D37D9793289C134F0039D8EE /* QuestionSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9792289C134F0039D8EE /* QuestionSixViewController.swift */; };
 		D37D9795289C13C60039D8EE /* QuizResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D9794289C13C60039D8EE /* QuizResultsViewController.swift */; };
+		D37D979B289C57BC0039D8EE /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D979A289C57BC0039D8EE /* ResourcesViewController.swift */; };
 		D3E89295289AD1A00062EF41 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E89294289AD1A00062EF41 /* LearnViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		D37D9790289C13450039D8EE /* QuestionFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFiveViewController.swift; sourceTree = "<group>"; };
 		D37D9792289C134F0039D8EE /* QuestionSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSixViewController.swift; sourceTree = "<group>"; };
 		D37D9794289C13C60039D8EE /* QuizResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsViewController.swift; sourceTree = "<group>"; };
+		D37D979A289C57BC0039D8EE /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		D3E89294289AD1A00062EF41 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +129,7 @@
 				B82623F02899A01F00B8718E /* SceneDelegate.swift */,
 				B82623F22899A01F00B8718E /* ViewController.swift */,
 				B82623F42899A01F00B8718E /* Main.storyboard */,
+				D37D979A289C57BC0039D8EE /* ResourcesViewController.swift */,
 				D37D9794289C13C60039D8EE /* QuizResultsViewController.swift */,
 				D37D978A289C13220039D8EE /* QuestionTwoViewController.swift */,
 				D37D978C289C132F0039D8EE /* QuestionThreeViewController.swift */,
@@ -296,6 +299,7 @@
 			files = (
 				B82623F32899A01F00B8718E /* ViewController.swift in Sources */,
 				D37D9795289C13C60039D8EE /* QuizResultsViewController.swift in Sources */,
+				D37D979B289C57BC0039D8EE /* ResourcesViewController.swift in Sources */,
 				B826242F289AC15500B8718E /* EcoLogViewController.swift in Sources */,
 				D37D9789289C12D90039D8EE /* QuestionOneViewController.swift in Sources */,
 				D37D9793289C134F0039D8EE /* QuestionSixViewController.swift in Sources */,
