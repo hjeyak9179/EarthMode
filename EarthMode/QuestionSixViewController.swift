@@ -8,25 +8,23 @@
 import UIKit
 
 class QuestionSixViewController: UIViewController {
-    @IBOutlet weak var optionOne: UIButton!
-    @IBOutlet weak var optionTwo: UIButton!
-    @IBOutlet weak var optionThree: UIButton!
-    @IBOutlet weak var optionFour: UIButton!
+   
+    @IBOutlet weak var img: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        optionOne.backgroundColor = UIColor.blue
-        optionTwo.backgroundColor = UIColor.blue
-        optionThree.backgroundColor = UIColor.blue
-        optionFour.backgroundColor = UIColor.blue
         // Do any additional setup after loading the view.
     }
     @IBAction func clickOne(_ sender: Any) {
+        img.text = "🚫"
     }
     @IBAction func clickTwo(_ sender: Any) {
+        img.text = "🌱"
     }
     @IBAction func clickThree(_ sender: Any) {
+        img.text = "🌿"
     }
     @IBAction func clickFour(_ sender: Any) {
+        img.text = "♻️"
     }
     /*
     // MARK: - Navigation

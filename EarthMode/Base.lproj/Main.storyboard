@@ -339,9 +339,6 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aesthetic-Leaves-PNG-HD" translatesAutoresizingMaskIntoConstraints="NO" id="jmj-1m-Vxn">
                                 <rect key="frame" x="218" y="634" width="303" height="197"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aesthetic-Leaves-PNG-HD" translatesAutoresizingMaskIntoConstraints="NO" id="lce-NU-fQu">
-                                <rect key="frame" x="-80" y="0.0" width="303" height="197"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aesthetic-Leaves-PNG-Transparent" translatesAutoresizingMaskIntoConstraints="NO" id="yhE-2m-kiQ">
                                 <rect key="frame" x="201" y="147" width="276" height="207"/>
                             </imageView>
@@ -355,6 +352,10 @@
                                 <color key="textColor" red="0.22128576733245062" green="0.32447522095959591" blue="0.14213264399602829" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Aesthetic-Leaves-PNG-HD" translatesAutoresizingMaskIntoConstraints="NO" id="Cde-ze-8Qb">
+                                <rect key="frame" x="-88" y="20" width="303" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.54509803921568623" green="0.76862745098039209" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -363,7 +364,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MXw-VO-O0f" secondAttribute="trailing" constant="20" id="09v-Vd-Dm3"/>
                             <constraint firstItem="MXw-VO-O0f" firstAttribute="leading" secondItem="KDH-kr-2a7" secondAttribute="leading" id="0Vb-XH-ouq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QMp-x6-5jx" secondAttribute="trailing" constant="80" id="1gE-iu-cyf"/>
-                            <constraint firstItem="lce-NU-fQu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2dl-8s-txV"/>
                             <constraint firstAttribute="bottom" secondItem="SaC-iX-ZMV" secondAttribute="bottom" constant="-26" id="5hj-tA-1ZL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QMp-x6-5jx" secondAttribute="bottom" constant="145" id="5jF-WB-pZx"/>
                             <constraint firstItem="MXw-VO-O0f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6vn-Do-onA"/>
@@ -372,7 +372,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ode-Xr-S84" secondAttribute="bottom" constant="44" id="C0R-uw-4hW"/>
                             <constraint firstItem="jmj-1m-Vxn" firstAttribute="top" secondItem="2cx-df-D0H" secondAttribute="bottom" constant="52" id="Cvr-WO-Q8G"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ImN-ag-Ssw" secondAttribute="trailing" constant="20" id="DpS-DF-GBh"/>
-                            <constraint firstItem="lce-NU-fQu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-80" id="EKR-dq-QOB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ode-Xr-S84" secondAttribute="trailing" constant="80" id="F2Q-R6-iAc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KpE-Is-r9F" secondAttribute="trailing" constant="80" id="F2U-yU-8U8"/>
                             <constraint firstItem="SaC-iX-ZMV" firstAttribute="top" secondItem="ufU-x9-OwF" secondAttribute="bottom" constant="20" id="G36-kZ-XpO"/>
@@ -383,14 +382,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ImN-ag-Ssw" secondAttribute="bottom" constant="318" id="S0W-6h-jhu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2cx-df-D0H" secondAttribute="trailing" constant="80" id="S5N-iK-WbF"/>
                             <constraint firstItem="2cx-df-D0H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="TZU-7E-EBw"/>
-                            <constraint firstItem="KDH-kr-2a7" firstAttribute="top" secondItem="lce-NU-fQu" secondAttribute="bottom" constant="181" id="UGC-Gh-WWM"/>
                             <constraint firstAttribute="trailing" secondItem="jmj-1m-Vxn" secondAttribute="trailing" constant="-107" id="UaS-5p-xb2"/>
                             <constraint firstItem="SaC-iX-ZMV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-126" id="XmT-Ss-LO8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gry-0L-VHR" secondAttribute="bottom" constant="441" id="YbC-0y-V3D"/>
                             <constraint firstItem="jmj-1m-Vxn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="218" id="aWR-Bs-zak"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SaC-iX-ZMV" secondAttribute="trailing" constant="264" id="aXA-HZ-r5W"/>
                             <constraint firstItem="KDH-kr-2a7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="334" id="afz-86-dhd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lce-NU-fQu" secondAttribute="trailing" constant="191" id="atF-K2-tBU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ufU-x9-OwF" secondAttribute="bottom" constant="202" id="bMM-2f-RuD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2cx-df-D0H" secondAttribute="bottom" constant="260" id="bXW-l3-FxS"/>
                             <constraint firstItem="KDH-kr-2a7" firstAttribute="top" secondItem="yhE-2m-kiQ" secondAttribute="bottom" constant="24" id="bay-ka-Yir"/>
@@ -863,16 +860,20 @@
                                     <action selector="clickTwo:" destination="FmI-v5-DXp" eventType="touchUpInside" id="OfR-Q1-GOz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="✨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVN-qV-NbO">
+                                <rect key="frame" x="123" y="511" width="163" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VR7-Kq-epE"/>
                         <color key="backgroundColor" red="0.54509806630000002" green="0.76862752440000004" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="bZR-N0-vpA"/>
                     <connections>
-                        <outlet property="optionFour" destination="m8n-HP-zs8" id="0tg-wD-rrE"/>
-                        <outlet property="optionOne" destination="b0v-tn-X2C" id="lzz-q8-Uko"/>
-                        <outlet property="optionThree" destination="gf5-pt-yiE" id="KxE-VF-0pQ"/>
-                        <outlet property="optionTwo" destination="pTp-OJ-J4A" id="mMe-ee-8uW"/>
+                        <outlet property="img" destination="AVN-qV-NbO" id="rUd-Ro-AEs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eBa-lc-EgS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -916,7 +917,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="optionOne:" destination="KoV-1t-NFI" eventType="touchUpInside" id="21z-wg-BRg"/>
+                                    <action selector="clickOne:" destination="KoV-1t-NFI" eventType="touchUpInside" id="tpp-Ae-fkC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQL-At-8fU">
@@ -932,7 +933,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="optionTwo:" destination="KoV-1t-NFI" eventType="touchUpInside" id="haH-0g-yAh"/>
+                                    <action selector="clickTwo:" destination="KoV-1t-NFI" eventType="touchUpInside" id="KIB-Qq-tzV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZ1-BX-1Hc">
@@ -948,7 +949,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="optionFour:" destination="KoV-1t-NFI" eventType="touchUpInside" id="MVQ-Bj-L5k"/>
+                                    <action selector="clickFour:" destination="KoV-1t-NFI" eventType="touchUpInside" id="rWK-70-Hsz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Elh-7a-r3g">
@@ -964,7 +965,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="ZvM-nQ-Fgd" kind="show" id="4wQ-gl-Bdd"/>
+                                    <segue destination="Qgk-9L-2Ey" kind="show" id="TSh-1B-NEI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgn-qo-21V">
@@ -980,19 +981,23 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="optionThree:" destination="KoV-1t-NFI" eventType="touchUpInside" id="rpZ-jx-fry"/>
+                                    <action selector="clickThree:" destination="KoV-1t-NFI" eventType="touchUpInside" id="se2-KH-iwC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="✨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5o-Tw-1z6">
+                                <rect key="frame" x="126" y="507" width="163" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hin-1T-H3w"/>
                         <color key="backgroundColor" red="0.54509806630000002" green="0.76862752440000004" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="g4O-m8-9pO"/>
                     <connections>
-                        <outlet property="optionFour" destination="eZ1-BX-1Hc" id="1n3-4W-fB0"/>
-                        <outlet property="optionOne" destination="rWS-TR-2Eg" id="SE4-LF-O6D"/>
-                        <outlet property="optionThree" destination="vgn-qo-21V" id="fci-hw-VzG"/>
-                        <outlet property="optionTwo" destination="XQL-At-8fU" id="aiR-i4-G8L"/>
+                        <outlet property="img" destination="U5o-Tw-1z6" id="jxm-my-9K0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QEs-HQ-1XN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1007,7 +1012,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUESTION SIX:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lss-wP-hCK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUESTION THREE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lss-wP-hCK">
                                 <rect key="frame" x="20" y="20" width="374" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1036,7 +1041,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="optionOne:" destination="Qgk-9L-2Ey" eventType="touchUpInside" id="G3T-sh-nVc"/>
+                                    <action selector="clickOne:" destination="Qgk-9L-2Ey" eventType="touchUpInside" id="BG2-ky-c2B"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Qf-XA-LKU">
@@ -1052,7 +1057,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="optionThree:" destination="Qgk-9L-2Ey" eventType="touchUpInside" id="0eg-JH-HUi"/>
+                                    <action selector="clickThree:" destination="Qgk-9L-2Ey" eventType="touchUpInside" id="Cfn-rc-yo6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3T-Ys-ooh">
@@ -1068,7 +1073,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="optionFour:" destination="Qgk-9L-2Ey" eventType="touchUpInside" id="Fgd-0C-mXd"/>
+                                    <action selector="clickFour:" destination="Qgk-9L-2Ey" eventType="touchUpInside" id="lsz-gf-nJh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Hu-4K-e7G">
@@ -1084,7 +1089,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="oYy-yg-5Y1" kind="show" id="aWw-23-KO9"/>
+                                    <segue destination="ZvM-nQ-Fgd" kind="show" id="3Ct-mX-Wpy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tu2-de-9gV">
@@ -1100,24 +1105,28 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="optionTwo:" destination="Qgk-9L-2Ey" eventType="touchUpInside" id="FSF-fN-dJi"/>
+                                    <action selector="clickTwo:" destination="Qgk-9L-2Ey" eventType="touchUpInside" id="Uoj-Ea-Gfc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="✨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9E-7s-5iB">
+                                <rect key="frame" x="126" y="503" width="163" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dQc-ng-YPY"/>
                         <color key="backgroundColor" red="0.54509806630000002" green="0.76862752440000004" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="E29-PN-met"/>
                     <connections>
-                        <outlet property="optionFour" destination="v3T-Ys-ooh" id="1MC-D2-k9v"/>
-                        <outlet property="optionOne" destination="2wq-wV-Mbu" id="Ia7-rc-Xjp"/>
-                        <outlet property="optionThree" destination="4Qf-XA-LKU" id="IIX-9e-pdO"/>
-                        <outlet property="optionTwo" destination="tu2-de-9gV" id="LgT-FQ-msd"/>
+                        <outlet property="img" destination="X9E-7s-5iB" id="kND-m6-dJa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vLZ-di-fqj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5181" y="471"/>
+            <point key="canvasLocation" x="2978" y="451"/>
         </scene>
         <!--Question Four View Controller-->
         <scene sceneID="L65-ce-R7a">
@@ -1127,7 +1136,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUESTION THREE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zi5-Li-C5D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUESTION FOUR:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zi5-Li-C5D">
                                 <rect key="frame" x="20" y="20" width="374" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1223,21 +1232,25 @@
                                     <action selector="clickTwo:" destination="ZvM-nQ-Fgd" eventType="touchUpInside" id="sUZ-la-0oR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="✨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKg-ah-eao">
+                                <rect key="frame" x="126" y="509" width="163" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2PZ-f1-xkg"/>
                         <color key="backgroundColor" red="0.54509806630000002" green="0.76862752440000004" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="xFx-wl-gZ1"/>
                     <connections>
-                        <outlet property="optionFour" destination="Sje-G5-FdR" id="JXe-Gh-sQM"/>
-                        <outlet property="optionOne" destination="6UY-H5-1Uu" id="n41-9P-1fa"/>
-                        <outlet property="optionThree" destination="R2S-L2-KfW" id="tYs-5B-m1A"/>
-                        <outlet property="optionTwo" destination="Pto-00-5JN" id="tgV-8k-mTw"/>
+                        <outlet property="img" destination="DKg-ah-eao" id="kCd-AK-tbA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UVw-aM-iZV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3074" y="465"/>
+            <point key="canvasLocation" x="3716" y="451"/>
         </scene>
         <!--Question Five View Controller-->
         <scene sceneID="FhA-wn-naN">
@@ -1303,7 +1316,7 @@
                                     <action selector="clickFour:" destination="IR3-ZW-ozw" eventType="touchUpInside" id="S9x-vU-jFQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUESTION FOUR:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PA-Ke-rVY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUESTION FIVE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PA-Ke-rVY">
                                 <rect key="frame" x="20" y="20" width="374" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1324,7 +1337,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="lZn-ER-ZH7" kind="show" id="tpK-Ys-mSk"/>
+                                    <segue destination="lZn-ER-ZH7" kind="show" id="g2O-zZ-L76"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S58-9U-KKx">
@@ -1343,21 +1356,25 @@
                                     <action selector="clickOne:" destination="IR3-ZW-ozw" eventType="touchUpInside" id="Nml-9t-dhr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="✨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzZ-Qr-ucD">
+                                <rect key="frame" x="126" y="504" width="163" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5Jv-bo-v37"/>
                         <color key="backgroundColor" red="0.54509806630000002" green="0.76862752440000004" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="KBn-vP-hRF"/>
                     <connections>
-                        <outlet property="optionFour" destination="v4x-Ce-6db" id="5vK-BV-NE0"/>
-                        <outlet property="optionOne" destination="S58-9U-KKx" id="LEp-O8-ytS"/>
-                        <outlet property="optionThree" destination="7LJ-8p-FHk" id="GGJ-o7-Vio"/>
-                        <outlet property="optionTwo" destination="pBJ-jy-Xim" id="6to-vm-tRN"/>
+                        <outlet property="img" destination="qzZ-Qr-ucD" id="GNW-gA-2xP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="av5-gs-lQM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3794" y="465"/>
+            <point key="canvasLocation" x="4475" y="451"/>
         </scene>
         <!--Question Six View Controller-->
         <scene sceneID="0ez-tW-y9q">
@@ -1367,7 +1384,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUESTION FIVE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jm-AB-ZBR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUESTION SIX:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jm-AB-ZBR">
                                 <rect key="frame" x="20" y="20" width="374" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1412,7 +1429,7 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Qgk-9L-2Ey" kind="show" id="ynZ-d8-rcm"/>
+                                    <segue destination="oYy-yg-5Y1" kind="show" id="828-PS-JSq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYp-5u-1sX">
@@ -1431,22 +1448,6 @@
                                     <action selector="clickFour:" destination="lZn-ER-ZH7" eventType="touchUpInside" id="MRs-js-Rai"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iph-MN-Dh3">
-                                <rect key="frame" x="80" y="262" width="254" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="NEVER">
-                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
-                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
-                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="clickOne:" destination="lZn-ER-ZH7" eventType="touchUpInside" id="Qix-sy-cUX"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bzw-An-fR3">
                                 <rect key="frame" x="80" y="320" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1463,21 +1464,41 @@
                                     <action selector="clickTwo:" destination="lZn-ER-ZH7" eventType="touchUpInside" id="niI-Za-txr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v16-s3-o08">
+                                <rect key="frame" x="80" y="255" width="254" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NEVER">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
+                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickOne:" destination="lZn-ER-ZH7" eventType="touchUpInside" id="fZB-UP-ArU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="✨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="121-dH-14y">
+                                <rect key="frame" x="126" y="510" width="163" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ah4-D4-wJa"/>
                         <color key="backgroundColor" red="0.54509806630000002" green="0.76862752440000004" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="pJi-k5-xgi"/>
                     <connections>
-                        <outlet property="objectOne" destination="iph-MN-Dh3" id="NtS-Lb-fhR"/>
-                        <outlet property="optionFour" destination="jYp-5u-1sX" id="u7S-Tp-ioC"/>
-                        <outlet property="optionThree" destination="8yE-45-DYs" id="qdq-cS-srw"/>
-                        <outlet property="optionTwo" destination="Bzw-An-fR3" id="3lc-Xc-1z3"/>
+                        <outlet property="img" destination="121-dH-14y" id="Rvi-ur-v2d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="en8-NP-D8m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4461" y="465"/>
+            <point key="canvasLocation" x="5196" y="451"/>
         </scene>
         <!--Quiz Results View Controller-->
         <scene sceneID="F45-cJ-Cv2">
@@ -1525,7 +1546,7 @@
                                 </buttonConfiguration>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="YOUR RESULT" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tqR-Q0-MMp">
-                                <rect key="frame" x="25" y="359" width="364" height="51"/>
+                                <rect key="frame" x="25" y="337" width="364" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.1750965511" green="0.25674715910000001" blue="0.1124651443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1543,7 +1564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ymv-L7-cOp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5891" y="471"/>
+            <point key="canvasLocation" x="5944.9275362318849" y="450.66964285714283"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
