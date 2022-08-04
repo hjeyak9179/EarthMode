@@ -742,8 +742,8 @@
                                 <rect key="frame" x="-108" y="129" width="630" height="702"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="5E6-Gt-Y5b">
-                                <rect key="frame" x="-187" y="-158" width="757" height="1277"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Nsa-ig-BC3">
+                                <rect key="frame" x="-177" y="-148" width="757" height="1277"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -873,7 +873,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="bZR-N0-vpA"/>
                     <connections>
-                        <outlet property="img" destination="AVN-qV-NbO" id="rUd-Ro-AEs"/>
+                        <outlet property="img" destination="AVN-qV-NbO" id="olY-OB-Bga"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eBa-lc-EgS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -997,7 +997,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="g4O-m8-9pO"/>
                     <connections>
-                        <outlet property="img" destination="U5o-Tw-1z6" id="jxm-my-9K0"/>
+                        <outlet property="img" destination="U5o-Tw-1z6" id="chU-Ru-qo8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QEs-HQ-1XN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1121,7 +1121,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="E29-PN-met"/>
                     <connections>
-                        <outlet property="img" destination="X9E-7s-5iB" id="kND-m6-dJa"/>
+                        <outlet property="img" destination="X9E-7s-5iB" id="b7u-Iq-KMm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vLZ-di-fqj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1245,7 +1245,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="xFx-wl-gZ1"/>
                     <connections>
-                        <outlet property="img" destination="DKg-ah-eao" id="kCd-AK-tbA"/>
+                        <outlet property="img" destination="DKg-ah-eao" id="hPr-wh-DF3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UVw-aM-iZV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1369,7 +1369,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="KBn-vP-hRF"/>
                     <connections>
-                        <outlet property="img" destination="qzZ-Qr-ucD" id="GNW-gA-2xP"/>
+                        <outlet property="img" destination="qzZ-Qr-ucD" id="qp8-6e-6zZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="av5-gs-lQM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1493,7 +1493,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="pJi-k5-xgi"/>
                     <connections>
-                        <outlet property="img" destination="121-dH-14y" id="Rvi-ur-v2d"/>
+                        <outlet property="img" destination="121-dH-14y" id="ETN-a6-hmX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="en8-NP-D8m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

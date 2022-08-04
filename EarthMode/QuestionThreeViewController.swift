@@ -10,6 +10,8 @@ import UIKit
 class QuestionThreeViewController: UIViewController {
     
     @IBOutlet weak var img: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

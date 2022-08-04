@@ -11,7 +11,7 @@ class QuestionFiveViewController: UIViewController {
     
     @IBOutlet weak var img: UILabel!
     
-    override func viewDidLoad() {
+override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }

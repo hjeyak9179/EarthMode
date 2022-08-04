@@ -8,8 +8,9 @@
 import UIKit
 
 class QuestionTwoViewController: UIViewController {
-
+    
     @IBOutlet weak var img: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
