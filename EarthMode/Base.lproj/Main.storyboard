@@ -134,7 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3cm-zi-P1R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-88.405797101449281" y="-615.40178571428567"/>
+            <point key="canvasLocation" x="-78" y="-919"/>
         </scene>
         <!--Learn View Controller-->
         <scene sceneID="j0A-6J-Fgv">
@@ -192,7 +192,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G1o-DQ-SUJ">
-                                <rect key="frame" x="100" y="705" width="215" height="42"/>
+                                <rect key="frame" x="84" y="705" width="247" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -206,19 +206,12 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <buttonConfiguration key="configuration" style="plain" title="CLICK TO LEARN MORE!">
                                     <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
                                         <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="CLICK TO LEARN MORE!">
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Optima-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -246,16 +239,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME TO:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXw-VO-O0f">
-                                <rect key="frame" x="20" y="34" width="374" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97647058823529409" green="1" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="22"/>
-                                <color key="textColor" red="0.22128576733245062" green="0.32447522095959591" blue="0.14213264399602829" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MISSION STATEMENT" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KDH-kr-2a7">
-                                <rect key="frame" x="20" y="362" width="374" height="34"/>
+                                <rect key="frame" x="20" y="378" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.22128576729999999" green="0.32447522099999998" blue="0.142132644" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -263,7 +248,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CHOOSE AN OPTION!" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ufU-x9-OwF">
-                                <rect key="frame" x="21" y="588" width="374" height="38"/>
+                                <rect key="frame" x="21" y="602" width="374" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.22128576729999999" green="0.32447522099999998" blue="0.142132644" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -271,7 +256,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMp-x6-5jx">
-                                <rect key="frame" x="80" y="640" width="254" height="36"/>
+                                <rect key="frame" x="80" y="661" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -288,7 +273,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KpE-Is-r9F">
-                                <rect key="frame" x="80" y="692" width="254" height="36"/>
+                                <rect key="frame" x="80" y="714" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="CARBON FOOTPRINT QUIZ">
@@ -304,7 +289,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ode-Xr-S84">
-                                <rect key="frame" x="80" y="746" width="254" height="36"/>
+                                <rect key="frame" x="81" y="762" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="ECO LOG">
@@ -320,7 +305,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2cx-df-D0H">
-                                <rect key="frame" x="80" y="534" width="254" height="36"/>
+                                <rect key="frame" x="80" y="546" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="1" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -347,7 +332,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ImN-ag-Ssw">
-                                <rect key="frame" x="21" y="413" width="374" height="104"/>
+                                <rect key="frame" x="20" y="420" width="374" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <string key="text">Our mission is to educate people on the drastic effects fast fashion has on the environment and provide ways in which one can live a more sustainable life!</string>
@@ -356,7 +341,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EarthMode-removebg-preview (1)" translatesAutoresizingMaskIntoConstraints="NO" id="gry-0L-VHR">
-                                <rect key="frame" x="26" y="44" width="363" height="339"/>
+                                <rect key="frame" x="27" y="62" width="363" height="339"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Aesthetic-Leaves-PNG-HD" translatesAutoresizingMaskIntoConstraints="NO" id="jmj-1m-Vxn">
@@ -375,6 +360,14 @@
                                 <rect key="frame" x="-126" y="661" width="276" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME TO:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXw-VO-O0f">
+                                <rect key="frame" x="21" y="44" width="374" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="1" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="22"/>
+                                <color key="textColor" red="0.22128576733245062" green="0.32447522095959591" blue="0.14213264399602829" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.54509803921568623" green="0.76862745098039209" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -488,7 +481,7 @@
                                 <color key="textColor" red="0.22128576729999999" green="0.32447522099999998" blue="0.142132644" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="How Much Did You Walk Today?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cVz-QF-iK7">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="How Much Did You Walk Today? (in KM)" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cVz-QF-iK7">
                                 <rect key="frame" x="10" y="91" width="182" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -497,7 +490,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Did You Consume Any Plant-Based Foods?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bbv-pL-d8J">
-                                <rect key="frame" x="9" y="479" width="182" height="182"/>
+                                <rect key="frame" x="9" y="479" width="182" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.1750965511" green="0.25674715910000001" blue="0.1124651443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -520,7 +513,7 @@
                                 <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Track Your Water" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PRp-Ks-98M">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Track Your Water (in L)" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PRp-Ks-98M">
                                 <rect key="frame" x="225" y="91" width="182" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -540,12 +533,6 @@
                                 <rect key="frame" x="20" y="147" width="160" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type Here" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Pjh-aT-c9z">
-                                <rect key="frame" x="37" y="315" width="340" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvc-hy-Ckt">
@@ -598,8 +585,16 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="3mx-JE-1s4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fo8-Db-Ayq">
-                                <rect key="frame" x="234" y="772" width="121" height="36"/>
+                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BAM-bl-EK9">
+                                <rect key="frame" x="20" y="316" width="374" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFg-cv-gte">
+                                <rect key="frame" x="254" y="772" width="121" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -611,12 +606,41 @@
                                     <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="resetButton:" destination="fJA-SP-qTz" eventType="touchUpInside" id="v53-oK-8kN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wh-BZ-e01">
+                                <rect key="frame" x="147" y="611" width="121" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DONE">
+                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="1">
+                                        <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="doneButton:" destination="fJA-SP-qTz" eventType="touchUpInside" id="jky-cy-t3c"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OR2-Co-GIl"/>
                         <color key="backgroundColor" red="0.5450980392" green="0.76862745099999996" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="R8D-fC-1QF"/>
+                    <connections>
+                        <outlet property="eatSwitch" destination="OGk-4k-fxK" id="G5D-8B-RaJ"/>
+                        <outlet property="improveOutput" destination="UiJ-eg-4LT" id="Tqb-Su-jqY"/>
+                        <outlet property="recycleSwitch" destination="ijm-fB-Am9" id="Flx-ak-291"/>
+                        <outlet property="reflectInput" destination="BAM-bl-EK9" id="8e1-8g-FAF"/>
+                        <outlet property="reusableSwitch" destination="rtT-8W-zJB" id="UpA-bC-ioE"/>
+                        <outlet property="walkInput" destination="Mw5-kj-c86" id="BA2-ss-ZfT"/>
+                        <outlet property="waterInput" destination="yvc-hy-Ckt" id="XoN-Rw-9Fv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gho-OS-p8C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -638,17 +662,8 @@
                                 <color key="textColor" red="0.22128576729999999" green="0.32447522099999998" blue="0.142132644" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ext-Nf-WMO">
-                                <rect key="frame" x="26" y="221" width="363.5" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Take this quiz and answer the following questions about your lifestyle to learn more about your carbon footprint, and what you can do to live a more sustainable life.  </string>
-                                <color key="textColor" red="0.1750965511" green="0.25674715910000001" blue="0.1124651443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppV-Xh-Zoi">
-                                <rect key="frame" x="80" y="482" width="254" height="36"/>
+                                <rect key="frame" x="80" y="725" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="START">
@@ -663,14 +678,23 @@
                                     <segue destination="FmI-v5-DXp" kind="show" id="3UE-Jn-d6G"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Press &quot;START&quot; to begin the quiz!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5jL-lN-9RJ">
-                                <rect key="frame" x="20" y="333" width="374" height="40"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ext-Nf-WMO">
+                                <rect key="frame" x="13" y="103" width="388" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Take this quiz and answer the following questions about your lifestyle to learn more about your carbon footprint, and what you can do to live a more sustainable life.  </string>
                                 <color key="textColor" red="0.1750965511" green="0.25674715910000001" blue="0.1124651443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="cVN-Us-jKG">
+                                <rect key="frame" x="-108" y="129" width="630" height="702"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="5E6-Gt-Y5b">
+                                <rect key="frame" x="-187" y="-158" width="757" height="1277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1sc-a2-Vqp"/>
                         <color key="backgroundColor" red="0.5450980392" green="0.76862745099999996" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -761,7 +785,7 @@
                                 <rect key="frame" x="133" y="727" width="159" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="QUESTION 2">
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
                                     <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
                                         <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -833,21 +857,8 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgn-qo-21V">
-                                <rect key="frame" x="85" y="371" width="254" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="START">
-                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
-                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
-                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZ1-BX-1Hc">
-                                <rect key="frame" x="85" y="426" width="254" height="36"/>
+                                <rect key="frame" x="85" y="440" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="START">
@@ -863,7 +874,7 @@
                                 <rect key="frame" x="133" y="728" width="159" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="QUESTION 3">
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
                                     <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
                                         <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -874,6 +885,19 @@
                                 <connections>
                                     <segue destination="Qgk-9L-2Ey" kind="show" id="IpH-xt-a8h"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgn-qo-21V">
+                                <rect key="frame" x="85" y="381" width="254" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="START">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
+                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hin-1T-H3w"/>
@@ -910,20 +934,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wq-wV-Mbu">
-                                <rect key="frame" x="90" y="253" width="254" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="START">
-                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
-                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
-                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tu2-de-9gV">
-                                <rect key="frame" x="90" y="305" width="254" height="36"/>
+                                <rect key="frame" x="90" y="261" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="START">
@@ -936,7 +947,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Qf-XA-LKU">
-                                <rect key="frame" x="90" y="359" width="254" height="36"/>
+                                <rect key="frame" x="90" y="379" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="START">
@@ -949,7 +960,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3T-Ys-ooh">
-                                <rect key="frame" x="90" y="415" width="254" height="36"/>
+                                <rect key="frame" x="90" y="436" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="START">
@@ -965,7 +976,7 @@
                                 <rect key="frame" x="138" y="728" width="159" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="QUESTION 4">
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
                                     <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
                                         <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -976,6 +987,19 @@
                                 <connections>
                                     <segue destination="ZvM-nQ-Fgd" kind="show" id="YCt-1V-Iy7"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tu2-de-9gV">
+                                <rect key="frame" x="90" y="321" width="254" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="START">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
+                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dQc-ng-YPY"/>
@@ -1012,7 +1036,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UY-H5-1Uu">
-                                <rect key="frame" x="80" y="238" width="254" height="36"/>
+                                <rect key="frame" x="80" y="258" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -1024,21 +1048,8 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pto-00-5JN">
-                                <rect key="frame" x="80" y="293" width="254" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="1-3">
-                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
-                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
-                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2S-L2-KfW">
-                                <rect key="frame" x="80" y="348" width="254" height="36"/>
+                                <rect key="frame" x="80" y="381" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="4-6">
@@ -1051,7 +1062,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sje-G5-FdR">
-                                <rect key="frame" x="80" y="403" width="254" height="36"/>
+                                <rect key="frame" x="80" y="439" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="7+">
@@ -1067,7 +1078,7 @@
                                 <rect key="frame" x="128" y="725" width="159" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="QUESTION 5">
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
                                     <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
                                         <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1078,6 +1089,19 @@
                                 <connections>
                                     <segue destination="IR3-ZW-ozw" kind="show" id="w0g-py-fy9"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pto-00-5JN">
+                                <rect key="frame" x="80" y="319" width="254" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="1-3">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
+                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2PZ-f1-xkg"/>
@@ -1106,7 +1130,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBJ-jy-Xim">
-                                <rect key="frame" x="80" y="287" width="254" height="36"/>
+                                <rect key="frame" x="80" y="315" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -1119,7 +1143,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LJ-8p-FHk">
-                                <rect key="frame" x="80" y="340" width="254" height="36"/>
+                                <rect key="frame" x="80" y="373" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -1132,20 +1156,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4x-Ce-6db">
-                                <rect key="frame" x="80" y="392" width="254" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="0">
-                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
-                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
-                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S58-9U-KKx">
-                                <rect key="frame" x="80" y="231" width="254" height="36"/>
+                                <rect key="frame" x="80" y="437" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -1169,7 +1180,7 @@
                                 <rect key="frame" x="128" y="720" width="159" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="QUESTION 6">
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
                                     <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
                                         <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1180,6 +1191,19 @@
                                 <connections>
                                     <segue destination="lZn-ER-ZH7" kind="show" id="GTt-7o-KBN"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S58-9U-KKx">
+                                <rect key="frame" x="80" y="256" width="254" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
+                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5Jv-bo-v37"/>
@@ -1215,21 +1239,8 @@
                                 <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iph-MN-Dh3">
-                                <rect key="frame" x="80" y="231" width="254" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="0">
-                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
-                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
-                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bzw-An-fR3">
-                                <rect key="frame" x="80" y="275" width="254" height="36"/>
+                                <rect key="frame" x="80" y="323" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -1242,7 +1253,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yE-45-DYs">
-                                <rect key="frame" x="80" y="329" width="254" height="36"/>
+                                <rect key="frame" x="80" y="377" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -1271,7 +1282,20 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYp-5u-1sX">
-                                <rect key="frame" x="80" y="381" width="254" height="36"/>
+                                <rect key="frame" x="80" y="433" width="254" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="2">
+                                        <color key="backgroundColor" red="0.98039215800000001" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.19215688110000001" green="0.4352940917" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iph-MN-Dh3">
+                                <rect key="frame" x="80" y="262" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -1302,7 +1326,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESULTS:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epd-xM-nR2">
-                                <rect key="frame" x="20" y="240" width="374" height="38"/>
+                                <rect key="frame" x="20" y="182" width="374" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="22"/>
@@ -1310,7 +1334,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNF-p3-iiR">
-                                <rect key="frame" x="128" y="634" width="159" height="36"/>
+                                <rect key="frame" x="128" y="711" width="159" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="HOME">
@@ -1326,7 +1350,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOh-ak-FjU">
-                                <rect key="frame" x="50" y="691" width="306" height="36"/>
+                                <rect key="frame" x="54" y="650" width="306" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="BACK TO THE START OF THE QUIZ">
@@ -1338,11 +1362,11 @@
                                     <color key="baseForegroundColor" red="0.002100690027" green="0.004766643884" blue="0.0056818181820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="FmI-v5-DXp" kind="show" id="Svt-t4-lsC"/>
+                                    <segue destination="6MK-aV-LC4" kind="show" id="3Ya-NM-il3"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="resultssssssss" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tqR-Q0-MMp">
-                                <rect key="frame" x="25" y="336" width="364" height="51"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="YOUR RESULT" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tqR-Q0-MMp">
+                                <rect key="frame" x="25" y="359" width="364" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.1750965511" green="0.25674715910000001" blue="0.1124651443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1361,14 +1385,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Svt-t4-lsC"/>
+        <segue reference="3Ya-NM-il3"/>
         <segue reference="soE-Bt-PfT"/>
-        <segue reference="hpG-qM-L8g"/>
+        <segue reference="0yD-Lp-xb2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1-removebg-preview" width="500" height="500"/>
         <image name="2-removebg-preview" width="500" height="500"/>
         <image name="5-removebg-preview" width="500" height="500"/>
+        <image name="8-removebg-preview" width="500" height="500"/>
         <image name="Aesthetic-Leaves-PNG-HD" width="2542" height="4299"/>
         <image name="Aesthetic-Leaves-PNG-Transparent" width="700" height="858"/>
         <image name="EarthMode-removebg-preview (1)" width="500" height="500"/>
