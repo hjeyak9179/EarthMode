@@ -686,7 +686,7 @@
                                 <rect key="frame" x="218" y="193" width="196" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20191228_160727" translatesAutoresizingMaskIntoConstraints="NO" id="qBr-vh-qFq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20210626_190634" translatesAutoresizingMaskIntoConstraints="NO" id="qBr-vh-qFq">
                                 <rect key="frame" x="-12" y="193" width="231" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1756,13 +1756,13 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="kQe-69-Uvp"/>
-        <segue reference="soE-Bt-PfT"/>
+        <segue reference="RV9-dd-8jf"/>
         <segue reference="YyH-Hb-ECj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1-removebg-preview" width="500" height="500"/>
         <image name="2-removebg-preview" width="500" height="500"/>
-        <image name="20191228_160727" width="3024" height="4032"/>
+        <image name="20210626_190634" width="1402" height="2094"/>
         <image name="5-removebg-preview" width="500" height="500"/>
         <image name="8-removebg-preview" width="500" height="500"/>
         <image name="Aesthetic-Leaves-PNG-HD" width="2542" height="4299"/>
